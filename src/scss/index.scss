@@ -1,0 +1,49 @@
+@import "./pages/pages-dir";
+@import "./_layouts";
+
+* {
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gold {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  border: 1px solid;
+  // background: linear-gradient();
+  background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+}
+
+.gold-2 {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  border: 1px solid;
+  // background: linear-gradient();
+  background: linear-gradient(45deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+}
+
+.silver {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  border: 1px solid;
+  // background: linear-gradient();
+  background: linear-gradient(45deg, #848b98, #d7d7d8, #959ba3, #d7d7d8, #aeb2b8);
+}
+
+.bronze {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  border: 1px solid;
+  // background: linear-gradient();
+  background: linear-gradient(45deg, #8b4411, #f5f5dd, #ae6e4e, #c7ad7f, #a57a5a);
+}
