@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Camera() {
+function DataGrid() {
     return (
         <div>
-            Camera
+
         </div>
     )
 }
 
-export default Camera
+export default DataGrid

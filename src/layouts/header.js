@@ -14,6 +14,9 @@ function Header() {
         <li>
           <Link to="/room">Room</Link>
         </li>
+        <li>
+          <Link to="/dashboard">Dashboard</Link>
+        </li>
       </ul>
     </header>
   );
