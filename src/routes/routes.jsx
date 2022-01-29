@@ -4,7 +4,9 @@ const Profile = lazy(() => import("../pages/profile/profile"));
 const Room = lazy(() => import("../pages/room/room"));
 const Error1 = lazy(() => import("../pages/errors/404"));
 const Error2 = lazy(() => import("../pages/errors/server-error"));
-const Dashboard=lazy(()=>import ('../pages/dashboard'))
+// const Dashboard=lazy(()=>import ('../pages/dashboard'))
+const Dashboard = lazy(() => import('../pages/voiceRecord/index'))
+
 
 const routes = [
   { path: "/", name: "Home", component: Home },
